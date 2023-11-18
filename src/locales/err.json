@@ -1,0 +1,48 @@
+{
+  "en": {
+    "err": "An error occurred while submitting the form. Please try again.",
+    "type": "Please choose a verification method",
+    "name": "Please fill in a valid name.",
+    "email": "Please fill in a valid email.",
+    "phone": "Your mobile entry is incorrect,<br/>please input again",
+    "tnc": "Please check the terms and conditions.",
+    "emailbefore": "This email address has been submitted before.",
+    "phonebefore": "This mobile number was<br/>already registered.<br/>No duplicated entry is allowed.",
+    "uid": "Login failed",
+    "cam": "Camera Error",
+    "pic": "Not a picture",
+    "network": "Network Error",
+    "full": "Quota full.<br/>Thank you for your participation.",
+    "404": "This page doesn't exist"
+  },
+  "tc": {
+    "type": "請選擇發送驗證方式",
+    "name": "請輸入有效名字",
+    "email": "請輸入有效電郵",
+    "phone": "你的手提電話輸入不正確，\n\r請重新輸入",
+    "tnc": "請同意條款及細則",
+    "emailbefore": "此電郵已被登記",
+    "phonebefore": "此手提電話號碼經已登記，<br/>不能重複參與！",
+    "uid": "登入失敗",
+    "cam": "攝像頭錯誤",
+    "pic": "Not a picture",
+    "network": "Network Error",
+    "full": "名額已滿，多謝參與！",
+    "user_group": "頁面不正確",
+    "404": "頁面不正確"
+  },
+  "sc": {
+    "type": "请选择发送验证方式",
+    "name": "请输入有效名字",
+    "email": "请输入有效电邮",
+    "phone": "请输入有效电话号码",
+    "tnc": "请同意条款及细则",
+    "emailbefore": "此电邮已被登记",
+    "phonebefore": "此电话号码已被登记",
+    "uid": "登入失败",
+    "cam": "摄像头错误",
+    "pic": "Not a picture",
+    "network": "Network Error",
+    "full": "full"
+  }
+}

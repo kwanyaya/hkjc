@@ -1,0 +1,16 @@
+:root {
+  --theme-color: #fff;
+  --ideal-viewport-width: 1080;
+
+  --current-viewport-width: 100vw;
+  --min-viewport-width: 320px;
+  --max-viewport-width: 500px;
+
+  --clamped-viewport-width: clamp(
+    var(--min-viewport-width),
+    var(--current-viewport-width),
+    var(--max-viewport-width)
+  );
+
+  font-size: calc(1 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+}

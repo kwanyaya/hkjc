@@ -1,0 +1,117 @@
+/* Form.vue start */
+
+:root {
+  --tf-font-size: 55rem;
+  --tf-input-pad: 20rem;
+}
+.template-form {
+  padding: 30rem;
+  background-color: aliceblue;
+}
+
+.tf-space {
+  padding: 30rem 0;
+}
+
+.tf-text {
+  font-size: var(--tf-font-size);
+}
+
+.tfb-xspace {
+  margin: 0 10rem;
+}
+
+.tfb-rspace {
+  margin-right: 10rem;
+}
+
+.tf-header {
+  font-size: 90rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tf-field {
+  display: flex;
+}
+
+.tf-input-field {
+  display: block;
+}
+
+.tf-err-msg {
+  color: red;
+  font-size: calc(var(--tf-font-size) - var(--tf-input-pad) - 5rem);
+  position: absolute; /* position absolute indicates to extend the height or not */
+  width: fit-content;
+}
+
+label {
+  padding-right: 5%;
+  width: 450rem;
+}
+
+input {
+  width: fit-content;
+  height: 100%;
+  display: block;
+  font-size: calc(var(--tf-font-size) - var(--tf-input-pad));
+  border-radius: 0;
+  border: 0;
+  padding: var(--tf-input-pad);
+  /* -webkit-appearance: none; */
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type='date'] {
+  width: fit-content;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  text-align: center;
+}
+
+button,
+select {
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+  color: #555;
+  /* height: 1.5rem; */
+}
+
+select:focus {
+  outline: none;
+}
+
+.tf-birth-select {
+  height: 100%;
+  display: flex;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: auto;
+  margin-right: 5%;
+  width: 80rem;
+}
+
+.tf-checkbox {
+  align-items: center;
+}
+
+.tf-checkbox label {
+  width: fit-content;
+}
+
+button {
+  width: fit-content;
+  font-size: 55rem;
+  padding: 15rem 25rem;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Form.vue end */

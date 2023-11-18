@@ -91,3 +91,44 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- [ ] css documents
+
+```
+  --ideal-viewport-width: 500;
+
+  --current-viewport-width: 100vw;
+  --min-viewport-width: 320px;
+  --max-viewport-width: 500px;
+
+  --clamped-viewport-width: clamp(var(--min-viewport-width), var(--current-viewport-width), var(--max-viewport-width));
+
+  font-size: calc(1 * var(--clamped-viewport-width) / var(--ideal-viewport-width));
+
+```
+
+--ideal-viewport-width //設計稿寬度（不要打px）
+
+--max-viewport-width: 500px;
+
+--clamped-viewport-width : 最大寬度和最小寬度之間 動態改變  **從而得出當前寬度**
+clamp css 屬性: https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+
+font-size : 
+  var(--clamped-viewport-width) / var(--ideal-viewport-width) = 當前寬度 / 設計稿 
+得出當前手機寬度和設計稿比例
+
+e.g.
+手機    414px
+design 500px
+當前比例 414/500 = 0.828
+
+font-size 就會等於 0.828
+這個單位就會等於html root font-size
+
+另外css 單位 rem 會根據 root font-size 來改變比例關係
+
+如設計稿 500px, 入面font-size 20px
+在414px 做 網頁時候，可以落20rem
+根據rem 會自動 將20rem * 0.828 轉換成 符合比例的 px 單位
+  
+

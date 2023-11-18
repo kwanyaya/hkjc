@@ -1,0 +1,53 @@
+{
+  "register": {
+    "form": {
+      "phone": "Hong Kong Mobile No.:",
+      "sms": "SMS:",
+      "submit": "Submit",
+      "tnc_1": {
+        "0": "I have read and agreed to all",
+        "1": "Terms and Conditions"
+      },
+      "tnc_2": {
+        "0": "I have read the ",
+        "1": "details",
+        "2": "agree that the Club may use my personal data for direct marketing purposes."
+      },
+      "tnc_c": "."
+    },
+    "remark": "*Available while stocks last. This event is subject to terms and conditions. Gift photo is for reference only.\n\rRacecourse entrants must be aged 18 or above. Don’t gamble your life away."
+  },
+  "blub_success_t1": "Successfully registered!",
+  "blub_success_t2": "You’ll receive an SMS giving gift<br/>redemption details.",
+  "blub_btn": "Homepage ",
+  "game_p1_t1": "Free admission",
+  "game_p1_t2": "Scan this code at the entrance of",
+  "game_p1_t3": "Sha Tin Racecourse Public Enclosure",
+  "game_p1_btn1": "More Activities",
+  "game_p2_qr_t": "Game & Gift Redemption",
+  "game_p2_cp1_t": "Champions Challenge",
+  "game_p2_cp2_t": "Jockeys’ Challenge<br/><span class='text_s'>(valid from 3pm)</span>",
+  "game_p2_cp3_t": "On-course Activities",
+  "game_p2_cp0_beer_t": "Redeem canned beer",
+  "game_p2_cp0_coffee_t": "Redeem canned coffee<br/><span class='text_s'>(valid till 7pm)</span>",
+  "game_p2_lock_prize_t": "This offer is not yet redeemed",
+  "game_p2_unlock_prize_t": "You’ve redeemed this offer",
+  "game_p2_lock_t": "This game is not yet unlocked ",
+  "game_p2_unlock_t": "You’ve unlocked this game",
+  "coffee": {
+    "ref_text": "Present the QR code to staff at The Coffee Academics and scan to redeem a canned coffee (valued at $38)",
+    "map_text": "Redemption venue: 1/F, Grandstand II, Sha Tin Racecourse <br/>(Please go to The Coffee Academics counter facing the trackside) <br/>Redemption time: 2:00 pm to 7:00 pm"
+  },
+  "beer": {
+    "ref_text": "Present the QR code to staff at the entrance of Roof Deck @2M and scan to redeem admission ticket and a canned beer (valued at $21)",
+    "map_text": "Redemption venue: 1/F, Grandstand II, Sha Tin Racecourse <br/>(Please go to The Coffee Academics counter facing the trackside)<br/>Redemption time: 2:00 pm to 8:00 pm"
+  },
+  "g1": {
+    "ref_text": "Visit the \"Champions Challenge Game Zone\" underneath Mezza One and scan QR code to join the digital game. Upon participation in any one game, you can win a token to redeem a gift at the gacha machine. Each participant can win one gift only and gifts are available while stocks last.",
+    "map_text": "Game venue: Mezza One underneath1/F Grandstand II,<br/> Sha Tin Racecourse<br/>Game time: 2:00 pm until the end of last race <br/>(or until all gifts are distributed)"
+  },
+  "g2": {
+    "ref_text": "Visit the \"Jockeys’ Challenge Game Zone\" at Backstage and scan QR code to join the eSports game. Upon participation in any one game, you can win a token to redeem a gift at the gacha machine. Each participant can win one gift only and gifts are available while stocks last.",
+    "map_text": "Game venue: Backstage, 1/F Grandstand II, Sha Tin Racecourse<br/>Game time: 3pm until the end of last race <br/>(or until all gifts are distributed)"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "availability": {
+    "status": "success",
+    "content": "success"
+  },
+  "login": {
+    "status": "success",
+    "content": {
+      "name": "Jason",
+      "phone": "68712587",
+      "email": "katie.chow@videinsight.asia"
+    }
+  }
+}
